@@ -17,7 +17,7 @@
                   <div class="footer-main-section ">
                     <div class="footer__contact footer__contact_lg"><i class="fa fa-phone"></i> <?php echo($phone);?></div>
                     <div class="footer__contact"><i class="fa fa-envelope"></i> thrillsecurity.com</div>
-                    <div class="footer__contact">Head Office: Birla College Campus Road, Patil Nagar, Chikan Ghar, Kalyan, Maharashtra 421301</div>
+                    <div class="footer__contact">Head Office: Birla College Campus Road, Patil Nagar, Chikan Ghar, Kalyan West, Maharashtra 421301</div>
                   </div>
                 </div>
                  
