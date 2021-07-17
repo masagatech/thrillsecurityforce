@@ -52,10 +52,10 @@
   content: '';
 }
 .parallax-light:after {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgb(61 61 104 / 85%)
 }
 .parallax-dark:after {
-  background-color:  rgba(0, 0, 0, 0.9);
+  background-color:  rgb(61 61 104 / 85%)
 }
 .parallax-primary:after {
   opacity: 0.9;

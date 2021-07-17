@@ -10,14 +10,15 @@
           <div class="parallax__inner">
             <div class="container">
               <div class="row">
-                <div class="col-xs-12"><a href="home.php" class="footer__logo"><img src="assets\img\logo.png" alt="Thrill Security" height="150" width="150" class="img-responsive center-block"/></a></div>
+                <div class="col-xs-12"><img src="assets\img\logown.png" alt="Thrill Security" height="150" width="150" class="img-responsive center-block"/></div>
               </div>
               <div class="row">
                 <div class="col-sm-12 col-md-12">
                   <div class="footer-main-section ">
                     <div class="footer__contact footer__contact_lg"><i class="fa fa-phone"></i> <?php echo($phone);?></div>
-                    <div class="footer__contact"><i class="fa fa-envelope"></i> thrillsecurity.com</div>
-                    <div class="footer__contact">Head Office: Birla College Campus Road, Patil Nagar, Chikan Ghar, Kalyan West, Maharashtra 421301</div>
+                    <div class="footer__contact"><i class="fa fa-envelope"></i> <?php echo($mail);?><div>
+                      <br/>
+                    <div class="footer__contact mt-3">Head Office: Birla College Campus Road, Patil Nagar, Chikan Ghar, Kalyan West, Maharashtra 421301</div>
                   </div>
                 </div>
                  
@@ -37,6 +38,7 @@
             </div>
             <div class="container">
               <div class="row">
+                
                 <div class="col-sm-4">
                   <section class="footer-section">
                     <h3 class="footer-section__title">Areas served</h3>
@@ -79,7 +81,8 @@
         <div class="copyright">
           <div class="container">
             <div class="row">
-              <div class="col-xs-12">Copyrights 2019<a href="index.html" class="copyright__link"> Thrill Security Services</a> All rights reserved.<a href="index.html" class="copyright__link-2">Privacy Policy.</a>
+              <div class="col-xs-12">Copyrights 2019<a href="index.php" class="copyright__link"> Thrill Security Services</a> All rights reserved.
+              <!-- <a href="index.html" class="copyright__link-2">Privacy Policy.</a> -->
               <!-- <a href="digitaltycoontech.com" class="copyright__link-2">Digital Tycoon Technologie LLP</a> -->
             </div>
             </div>

@@ -14,13 +14,13 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-7">
-                <h1 class="b-title-page">who we are1</h1>
+                <h1 class="b-title-page">who we are</h1>
                 <div class="b-title-page__info">The approved contractor of Security Guard services, providing quality security services to many organizations &amp; private companies</div>
                 <!-- end b-title-page-->
               </div>
               <div class="col-sm-5">
                 <ol class="breadcrumb">
-                  <li><a href="home.html">home</a></li>
+                  <li><a href="index.php">home</a></li>
                   <li class="active">about us</li>
                 </ol>
               </div>
@@ -58,20 +58,31 @@
         <div class="container">
           <div class="row">
 		  <div class="col-sm-6">
-				<img src="assets\img/about.jpg" alt="Foto" class="img-responsive">
+				<img src="assets\img/about.png" alt="Foto" class="img-responsive">
 		  </div>
             <div class="col-sm-6">
               <h1 class="ui-title-inner-1">About Us</h1>
               <div class="ui-subtitle-block ui-subtitle-block_mr-btm_sm">
-				<p>Thrill Security Services Pvt Ltd of companies, an ISO 9001:2015 Certified Group comrises of <span> Thrill Security Administrative # Security Services (P) Ltd.</span></p>
-					<p>Thrill Security has deployed more than 1000 Security personnel's all over Maharashtra State<br>
-					</p>
-			  <p> Provides the electronic and material support to our services and boasts off an independent varied clientele of its own.</p>
-			  <p> "Thrill Security has come a long way from its humble beginnings as a security services company and has now integraed 
-			  into a our clients facility needs such as Total Security Services,
-			  Security System, Investgative Services, Perimeter Fencing, Housekeeping, 
-			  Electro-Mechanical Maintenance, Horticulture and Support Staff Services Our Philosophy
-			  revolves around the concept of "Total Client Satisfaction". This is well reflected in our client retention reate of 95%</p>
+				<p>We are presenting here in our company profile and the range of services that we at Thrill
+Security Force Pvt. Ltd offer to clients across Maharashtra.
+Thrill Security Force is the most preferred option in Maharashtra for all sectors i.e. Industrial,
+commercial and residential. Our team has an unparalleled reputation for providing a
+comprehensive range of security solutions to minimize the risk to their personnel, operations
+and assets. Our experienced, multi-disciplinary team of security experts is ready to protect you,
+your employees and you loved ones 24*7, no matter where you are. Established in the year
+2018 with the registered office at Dahisar (Mumbai) and corporate office at
+Kalyan.
+We meet all the statutory requirements of Private Security Agencies (Regulation) Act, 2005
+(PSAR Act) enacted by the Govt. Of Maharashtra for providing private security.
+Our business operations are led by professionals who are having extensive experience in the
+field of Integrated Security. Their experience of business approach is well guided by a network
+of specialized people worked in various verticals of security like police, Intelligence Services and
+military background.
+Today, we are dedicatedly working towards partnering with clients for providing safety and
+security solutions that mitigate risk as well as minimize losses-both financially and physically.
+Further ,our expertise in Security Audit also helps in reducing burden on industries to incur
+extra financial costs on overall operations and administration (Security), thus helping in
+improving the level of satisfaction.</p>
 </div>
             </div>
             
@@ -88,11 +99,8 @@
               <h1 class="ui-title-inner-1"> Our Vision </h1>
               <div class="ui-subtitle-block ui-subtitle-block_mr-btm_sm">
 			  <p>
-			  It will be our journey to reach the zenith in the India Security Industry in terms of products/service range, 
-quality and oprations network. We have a vision to provide error free and
- cost effective World class Security Services to meet and satisfy the exact need of clients throughout India. 
- We shall achieve this through design up-
-gradation and refinement of services and with an untiring effort toward performance management.
+			  Our Vision is to be 360o solution provider while upholding the eﬀectivness and quality of the services.
+
 </p>
 </div>
             </div>
@@ -110,10 +118,16 @@ gradation and refinement of services and with an untiring effort toward performa
               <h1 class="ui-title-inner-1"> Our Mission </h1>
               <div class="ui-subtitle-block ui-subtitle-block_mr-btm_sm">
 			  <p>
-			 We shall strive to retain customer loyalty through consistent delivery of value for money product/services to delight our customers.
-			 We wisj to offer our human assets a challenging and healthy working environment where talents are nurtured and new opportunities are
-			 provided to for sustained growth and development. We have been persistently expanding vertically and horizontally and wish to continue the
-			 same without compromising on the quality if the services provided.
+        We shall strive to retain customer loyalty through consistent delivery of value for money services to delight our customers. We wish to oﬀer our human assets a challenging and healthy working environment where talents are nurtured and new opportunities are provided for sustained growth and development.
+      <ul><li>
+      Complete focus on client’s wants and needs to provide a comprehensive solution. 
+
+      </li>
+      <li>Be fair and ethical in our approach.</li>
+      <li>Provide more eﬃciency and quality as we progress.</li>
+      </ul>
+
+       
 </p>
 </div>
             </div>
@@ -134,7 +148,8 @@ gradation and refinement of services and with an untiring effort toward performa
                 <div class="b-type-c__text">
                   <p>We believe in serving you by providing affordable, smart and exective class security with the help of our well-trained professionals</p>
                   <p>We work 24 hours a day to create peace on mind for our clients. Call us at <a href="tel:<?php echo($phone);?>"><?php echo($phone);?></a></p>
-                </div><a href="contact.html" class="b-type-c__btn btn btn-default btn-sm btn-effect">get in touch now</a>
+                </div>
+                <!-- <a href="contact.html" class="b-type-c__btn btn btn-default btn-sm btn-effect">get in touch now</a> -->
               </div>
             </div>
           </div>

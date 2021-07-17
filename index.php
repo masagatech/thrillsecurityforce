@@ -16,10 +16,14 @@
  
       <!-- end header-->
       
-      <div id="main-slider" data-slider-width="100%" data-slider-height="800px" data-slider-arrows="true" data-slider-buttons="false" class="main-slider slider-pro">
+      <div id="main-slider" data-slider-width="100%" data-slider-height="600px" data-slider-arrows="true" data-slider-buttons="false" class="main-slider slider-pro">
         <div class="sp-slides">
           <!-- Slide 1-->
-          <div class="sp-slide"><img src="assets/media/components/b-main-slider/bg-1.jpg" alt="slider" class="sp-image"/>
+          <div class="sp-slide" style="display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;"><img src="assets/media/components/b-main-slider/bg-1.jpg" alt="slider" class="sp-image"/>
             <div class="container">
               <div class="row">
                 <div class="col-md-7 col-sm-10 col-sm-offset-1">
@@ -84,7 +88,7 @@
                     <h3 class="b-contact-banner__title">contact us for a competitive price</h3>
                     <div class="b-contact-banner__decor ui-decor-type-3 center-block"></div>
                     <div class="b-contact-banner__info b-contact-banner__info_lg"><?php echo($phone);?></div>
-                    <div class="b-contact-banner__info">thrillforce.mh@gmail.com</div>
+                    <div class="b-contact-banner__info"><?php echo($phone);?></div>
                   </div>
                 </div>
               </div>
@@ -208,7 +212,8 @@ Most Statutory Compliant Company</h3>
                 <div class="b-type-c__text">
                   <p>We believe in serving you by providing affordable, smart and exective class security with the help of our well-trained professionals</p>
                   <p>We work 24 hours a day to create peace on mind for our clients. Call us at <?php echo($phone);?> </p>
-                </div><a href="contact.html" class="b-type-c__btn btn btn-default btn-sm btn-effect">get in touch now</a>
+                </div>
+                <!-- <a href="contact.html" class="b-type-c__btn btn btn-default btn-sm btn-effect">get in touch now</a> -->
               </div>
             </div>
           </div>
@@ -216,25 +221,7 @@ Most Statutory Compliant Company</h3>
       </section>
       <!-- end b-type-c-->
       
-      <div class="section-default section_border-bottom wow">
-        <div class="b-gallery-1">
-          <div class="js-zoom-gallery js-scroll-content">
-            <div class="b-gallery-1__item"><a href="assets/img/portfolio/1.jpeg" class="js-zoom-gallery__item"><img src="assets/img/portfolio/1.jpeg" alt="Thrill Security Service kalyan Dombivli" class="img-responsive"/></a></div>
-            <div class="b-gallery-1__item"><a href="assets/img/portfolio/2.jpeg" class="js-zoom-gallery__item"><img src="assets/img/portfolio/2.jpeg" alt="Thrill Security Service kalyan Dombivli" class="img-responsive"/></a></div>
-            <div class="b-gallery-1__item"><a href="assets/img/portfolio/3.jpeg" class="js-zoom-gallery__item"><img src="assets/img/portfolio/3.jpeg" alt="Thrill Security Service kalyan Dombivli" class="img-responsive"/></a></div>
-            <div class="b-gallery-1__item"><a href="assets/img/portfolio/4.jpeg" class="js-zoom-gallery__item"><img src="assets/img/portfolio/4.jpeg" alt="Thrill Security Service kalyan Dombivli" class="img-responsive"/></a></div>
-          </div>
-          <span class="b-gallery-1__btn js-scroll-next btn btn-default btn-sm btn-effect">load more images</span>
-          <div class="js-zoom-gallery js-scroll-content">
-            <div class="b-gallery-1__item"><a href="assets/img/gallery/9.jpg" class="js-zoom-gallery__item"><img src="assets/img/gallery/9.jpg" alt="foto" class="img-responsive"/></a></div>
-            <div class="b-gallery-1__item"><a href="assets/img/gallery/12.jpg" class="js-zoom-gallery__item"><img src="assets/img/gallery/12.jpg" alt="foto" class="img-responsive"/></a></div>
-            <div class="b-gallery-1__item"><a href="assets/img/gallery/24.jpeg" class="js-zoom-gallery__item"><img src="assets/img/gallery/24.jpeg" alt="foto" class="img-responsive"/></a></div>
-            <div class="b-gallery-1__item"><a href="assets/img/gallery/25.jpeg" class="js-zoom-gallery__item"><img src="assets/img/gallery/25.jpeg" alt="foto" class="img-responsive"/></a></div>
-          </div>
-        </div>
-        <!-- end b-gallery-1-->
-        
-      </div>
+   
       <section class="section-default wow">
         <div class="container">
           <div class="row">
@@ -386,7 +373,7 @@ Most Statutory Compliant Company</h3>
         </section>
         <!-- end b-form-request-->
         <section style="background-image: url(assets/media/components/b-type-d/bg-1.jpg)" data-jarallax="{&quot;type&quot;: &quot;scroll-opacity&quot;}" class="b-type-d section-bg jarallax section-table__inner">
-          <div class="section__inner"><img src="assets/img/LOGO1.PNG" alt="Logo" class="img-responsive"/>
+          <div class="section__inner"><img style="height:120px" src="assets/img/logown.png" alt="Logo" class="img-responsive"/>
             <h2 class="b-type-d__title ui-title-inner-1">If you would like to find more information about our company or services, please contact us!</h2>
             <dl class="b-type-d__list-desription list-desription">
               <dt><i class="icon pe-7s-helm"></i>Fully Insured & Legal Company</dt>

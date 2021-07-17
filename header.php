@@ -1,5 +1,6 @@
 <?php
   $phone = "+91 900 437 1850";
+  $mail = "thrillforce.mh@gmail.com";
 ?>
 
 
@@ -30,20 +31,24 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico"/>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9RBGC0SENW"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YQXL0WWFHJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-9RBGC0SENW');
+  gtag('config', 'G-YQXL0WWFHJ');
 </script>
 
     <link rel="stylesheet" id="enexus-fonts-css" href="//fonts.googleapis.com/css?family=Montserrat%3A300%2C400%2C500%2C600%2C700%2C800%2C900%26display%3Dswap%7CPlayfair%2BDisplay%3A400%2C700%2C900%26subset%3Dlatin%2Clatin-ext&amp;ver=1.0.0" media="all">
   </head>
   <body>
     <!-- Loader-->
-    <div id="page-preloader"><span class="spinner"></span></div>
+    <div id="page-preloader">
+      
+
+    <img src="assets/img/logown.png" style="height:250px; "   alt="Thrill Security"  />
+    </div>
     <!-- Loader end-->
     
     <div data-header="sticky" data-header-top="200" class="l-theme animated-css">
@@ -67,7 +72,8 @@
             
                 <div class="header-contact">
                   <div class="header-contact__item"><span class="header-contact__info"><i class="fa fa-phone text-white"></i> <?php echo($phone);?></span></div>
-                  <div class="header-contact__item"><a href="mailto:thrillforce.mh@gmail.com" class="header-contact__info"><i class="fa fa-envelope"></i> thrillforce.mh@gmail.com</a></div>
+                  <div class="header-contact__item"><a href="mailto:<?php echo($mail);?>" class="header-contact__info"><i class="fa fa-envelope"></i> <?php echo($mail);?></a></div>
+                
                 </div>
               </div>
             </div>
@@ -102,7 +108,7 @@
                           </ul>
                         </li>
                         <li><a href="about.html">Projects</a></li>-->
-                    <!--    <li class="dropdown"><a href="home.html">Pages</a>
+                    <!--    <li class="dropdown"><a href="index.php">Pages</a>
                           <ul role="menu" class="dropdown-menu">
                             <li><a href="pricing-faqs.html">Pricing</a></li>
                             <li><a href="pricing-faqs.html">Coming soon</a></li>

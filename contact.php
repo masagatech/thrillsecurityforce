@@ -39,34 +39,34 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-4">
               <div class="b-contacts"><i class="b-contacts__icon pe-7s-flag"></i>
                 <div class="b-contacts__name color-primary">location</div>
                 <div class="b-contacts__contacts">College Campus Road, <br>Patil Nagar, Chikan Ghar, <br>Kalyan</div>
               </div>
               <!-- end b-contacts-->
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-4">
               <div class="b-contacts"><i class="b-contacts__icon pe-7s-call"></i>
                 <div class="b-contacts__name color-primary">phone</div>
                 <div class="b-contacts__contacts"><?php echo($phone);?></div>
               </div>
               <!-- end b-contacts-->
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-4">
               <div class="b-contacts"><i class="b-contacts__icon pe-7s-mail-open"></i>
                 <div class="b-contacts__name color-primary">email</div>
-                <div class="b-contacts__contacts"> thrillforce.mh@gmail.com</div>
+                <div class="b-contacts__contacts"> <?php echo($mail);?></div>
               </div>
               <!-- end b-contacts-->
             </div>
-            <div class="col-sm-3">
+            <!-- <div class="col-sm-3">
               <div class="b-contacts"><i class="b-contacts__icon pe-7s-headphones"></i>
                 <div class="b-contacts__name color-primary">live chat</div>
                 <div class="b-contacts__contacts">exective.security</div>
               </div>
-              <!-- end b-contacts-->
-            </div>
+              end b-contacts
+            </div> -->
           </div>
         </div>
       </div>
